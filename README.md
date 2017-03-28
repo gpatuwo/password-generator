@@ -20,3 +20,4 @@
     - input is sequence of unicode values
 
 #### randomization
+Math.floor(Math.random() * (max-min)) + min
