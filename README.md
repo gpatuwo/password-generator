@@ -12,6 +12,11 @@
   - complete strings (eg "abc...yz")
   - string arrays (eg ['a', 'b'...'z'])
     - would be v annoying to type out
-- ASCII code range
+  - separate categories vs all in one
+- ASCII/Unicode range
+  - 33-126 code range
+  - need to convert back to char
+    - [String.fromCharCode( )](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
+    - input is sequence of unicode values
 
 #### randomization
